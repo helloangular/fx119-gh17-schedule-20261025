@@ -23,6 +23,7 @@ jobs:
         run: sleep 150
   test:
     needs: build
+    environment: fx119-gh17-observe-test
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
